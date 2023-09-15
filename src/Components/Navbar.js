@@ -3,6 +3,10 @@ import img from "../Assets/indiapost.png"
 import { Link } from "react-router-dom";
 // import './Navbar.css'
 
+
+const BASE_URL=process.env.REACT_API_BASE_URL;
+console.log(process.env);
+
 function Navbar(){
     return(
     <div className="flex items-center bg-red-700 "> 
