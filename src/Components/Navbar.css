@@ -1,0 +1,36 @@
+.row{
+    display: table;
+    background-color: rgb(111, 37, 16);
+    width: 100%;
+
+}
+
+.indiapost{
+
+    margin-left: 2%;
+    
+}
+
+
+
+
+.column{
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+ul{
+display: flex;
+gap: 40px;
+margin-top: 5px;
+margin-left: 25%;
+/* text-decoration: none; */
+}
+
+li{
+    color: aliceblue;
+    list-style-type: none;
+    
+}
